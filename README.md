@@ -1,53 +1,52 @@
 # ProyectoFinal_Docker
-# Deploying the Service Using the Dockerfile
+# Desplegando el Servicio Usando el Dockerfile
 
-This README file will guide you through the steps required to deploy the service using the Dockerfile.
+Este archivo lo guiará a través de los pasos necesarios para implementar el servicio mediante Dockerfile.
 
-## Prerequisites
+## Requisitos previos
 
 * Docker
 * Git
 
-## Steps
+## Pasos
 
-1. Clone the repository
+1. Clonar el repositorio
 
-```git clone https://github.com/[your-username]/[repository-name].git```
+```git clon https://github.com/[tu-nombre-de-usuario]/[nombre-del-repositorio].git```
 
-2. Change directory to the repository:
+2. Cambiar directorio al repositorio:
 
-```cd [repository-name]```
+```cd [nombre del repositorio]```
 
-3. Build the Docker image:
+3. Cree la imagen de Docker:
 
-```docker build -t [image-name] .```
+```docker build -t [nombre-imagen] .```
 
-4. Run the Docker image:
+4. Ejecute la imagen de Docker:
 
-```docker run -p [port]:[port] [image-name]```
+```docker run -p [puerto]:[puerto] [nombre-imagen]```
 
-For example, to run the Docker image on port 8080, you would use the following command:
+Por ejemplo, para ejecutar la imagen de Docker en el puerto 8080, usaría el siguiente comando:
 
-```docker run -p 8080:8080 [image-name]```
+```docker run -p 8080:8080 [nombre-imagen]```
 
-5. Access the service:
+5. Accede al servicio:
 
-Once the Docker image is running, you can access the service at the following URL:
+Una vez que se ejecuta la imagen de Docker, puede acceder al servicio en la siguiente URL:
 
-```http://localhost:[port]```
+```http://localhost:[puerto]```
 
-For example, if you are running the Docker image on port 8080, you would access the service at the following URL:
+Por ejemplo, si está ejecutando la imagen de Docker en el puerto 8080, accedería al servicio en la siguiente URL:
 
 ```http://localhost:8080```
 
-## Troubleshooting
+## Solución de problemas
 
-If you are having trouble deploying the service, please check the following:
+Si tiene problemas para implementar el servicio, verifique lo siguiente:
 
-* Make sure that you have Docker and Git installed.
-* Make sure that you have built the Docker image correctly.
-* Make sure that you are running the Docker image on the correct port.
+* Asegúrese de tener Docker y Git instalados.
+* Asegúrese de haber creado la imagen de Docker correctamente.
+* Asegúrese de ejecutar la imagen de Docker en el puerto correcto.
 
-If you are still having trouble, please feel free to open an issue on the repository.
-
+Si aún tiene problemas, no dude en abrir un problema en el repositorio.
 
