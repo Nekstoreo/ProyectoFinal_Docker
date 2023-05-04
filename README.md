@@ -12,33 +12,33 @@ This README file will guide you through the steps required to deploy the service
 
 1. Clone the repository
 
-´git clone https://github.com/[your-username]/[repository-name].git´
+```git clone https://github.com/[your-username]/[repository-name].git```
 
 2. Change directory to the repository:
 
-´cd [repository-name]´
+```cd [repository-name]```
 
 3. Build the Docker image:
 
-´docker build -t [image-name] .´
+```docker build -t [image-name] .```
 
 4. Run the Docker image:
 
-´docker run -p [port]:[port] [image-name]´
+```docker run -p [port]:[port] [image-name]```
 
 For example, to run the Docker image on port 8080, you would use the following command:
 
-´docker run -p 8080:8080 [image-name]´
+```docker run -p 8080:8080 [image-name]```
 
 5. Access the service:
 
 Once the Docker image is running, you can access the service at the following URL:
 
-´http://localhost:[port]´
+```http://localhost:[port]```
 
 For example, if you are running the Docker image on port 8080, you would access the service at the following URL:
 
-´http://localhost:8080´
+```http://localhost:8080```
 
 ## Troubleshooting
 
